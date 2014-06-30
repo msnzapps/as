@@ -1,0 +1,9 @@
+<script type="text/javascript">
+$.ajax({ url: 'http://globuspopus.com/RippleSites/holamundo.php',
+         data: {action: 'test'},
+         type: 'post',
+         success: function(output) {
+                  document.body.innerHTML = output;
+                  }
+});
+</script>
